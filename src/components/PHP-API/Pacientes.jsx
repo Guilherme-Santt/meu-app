@@ -7,7 +7,7 @@ function Paciente(){
     useEffect(() =>{
         axios.get("http://localhost/Santos-API/dados.php")
         .then(response => SetPacientes(response.data))
-        .catch(error => console.error("Erro ao buscar dados:", error))
+        .catch(error => console.error("Erro ao buscar dados: ", error))
     }, []); 
 
     return(
