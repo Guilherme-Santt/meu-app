@@ -1,0 +1,9 @@
+import Carro from '../components/Carros'
+function Home(){
+    return(
+        <div>
+            <p>Home</p>
+        </div>
+    )
+}
+export default Home
