@@ -1,0 +1,18 @@
+.Container{
+    background-color: rgb(1, 1, 2);
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}   
+.Container ul{
+    display: flex;
+    list-style: none;
+    gap: 1.4rem;
+    padding: 1rem;
+
+}
+.option-container{
+    color:white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}

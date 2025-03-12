@@ -1,4 +1,3 @@
-import Carro from '../components/Carros'
 function Home(){
     return(
         <div>
